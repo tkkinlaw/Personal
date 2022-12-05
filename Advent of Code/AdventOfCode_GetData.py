@@ -10,6 +10,7 @@ To use the function below:
 - password = your GitHub password (string)
 - day = specify the number day you want the data for (integer)
 - headless = do you want a chrome browser to open/close? (boolean)
+- driverloc = install the appropriate chrome driver where your you place this python file
 """
 
 def GetData_GitHubLogin(username, password, day, headless, driverLoc):
